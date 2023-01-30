@@ -1,0 +1,18 @@
+A:link {
+color : #000000;
+}
+
+A:visited {
+color : #333333;
+}
+
+A:hover {
+color : #FFFFFF;
+}
+
+A:active {
+color : #000066;
+}
+.date {  font-size: 16px; font-weight: bold; color: #FFFFFF; background-color: #999999; font-family: "Courier New", "Courier", "mono"}
+.title {  font-size: 18px; font-weight: bold; color: #FFFFFF; background-color: #666666}
+bgc_gray2 {  background-color: #CCCCCC}

@@ -1,0 +1,161 @@
+H1	 {
+			Font-Size : 24px;
+			Color : black ;
+			Font-Style : normal;
+			Font-Weight : 700
+		}
+
+H2	 {
+			Font-Size : 18px;
+			Color : #990000;
+			Font-Style : normal;
+			Font-Weight : 700;
+			 line-height: 130%
+		}
+
+H3	 {
+			Font-Size : 14px;
+			Color : #000099;
+			Font-Style : normal;
+			Font-Weight : 700
+		}
+
+H4	 {
+			text-transform : none;
+			Font-Size : 12px;
+			Color : #333333 ;
+			Font-Style : normal;
+			Font-Weight : 700
+		}
+
+TD	 {
+			Font-Size : 12px;
+			Color : black ;
+			Font-Style : normal;
+			Font-Weight : normal; 
+			line-height: normal
+		}
+
+A:Hover	 {
+			color: #990000; 
+			background-color: #FFFFCC; 
+		}
+
+:link	 {
+			Color : #0000CC
+		}
+
+:visited	 {
+			Color : #000099
+		}
+
+.copy	 {
+			font-family: "Georgia", "Times New Roman", "Times", "serif"; 
+			font-size: 10px; font-weight: 400; margin-top: 5px; margin-bottom: 5px; padding-top: 5px; padding-bottom: 5px
+		}
+
+.padding { 
+			padding: 1px 10px 0px 20px;
+			margin: 0px 10px; 
+			font-size: 12px; 
+			line-height: 130%
+		} 
+
+.bold 	{ 
+			font-weight: bold
+		} 
+
+.large 	{  
+			font-size: 14px
+		} 
+
+.large_height  { 
+			font-size: 14px;
+			line-height:130%
+		} 
+
+.bold_large 	{  
+			font-size: 14px; ; 
+			font-weight: 700
+		} 
+
+.bold_large_height  { 
+			font-size: 14px;
+			line-height:130%;
+			font-weight: 700
+		} 
+
+.small  { 
+			font-size: 12px
+		} 
+
+.bold_small_height  { 
+			font-size: 12px;
+			line-height:130%; 
+			font-weight: 700
+		} 
+
+.bold_samll { 
+			font-size: 12px; 
+			font-weight: 700
+		} 
+
+.mini	{ 
+			font-size: 10px
+		} 
+
+.mini_height  { 
+			font-size: 10px;
+			line-height:130%
+		} 
+
+.bold_mini { 
+			font-weight: 700; 
+			font-size: 10px
+		} 
+
+.bold_mini_height  { 
+			font-size: 10px;
+			line-height:130%;
+			font-weight: 700
+		} 
+
+.red {
+			color: #CC0000
+		}
+
+.bold_red {
+			font-weight: 700; 
+			color: #CC0000
+		}
+
+.bold_White {
+			font-size: 12px; 
+			font-style: normal; 
+			font-weight: bold; 
+			color: #FFFFFF
+		}
+
+.bold_blue {
+			font-weight: 
+			bold; color: #000099
+		}
+		
+.bule_back {
+ 			font-size: 12px; 
+ 			font-weight: bold; 
+ 			color: #FFFFFF; 
+ 			background-color: 
+ 			#000066
+ 		}
+
+.date {
+			font-size: 
+			12px; 
+			background-color: 
+			#CCCCCC
+		}
+.height130 {  line-height: 130%}
+.cs_title {  font-size: 18px; font-weight: bold; color: #FFFFFF; font-family: "Georgia", "Times New Roman", "Times", "serif"}
+.main {  font-family: "Georgia", "Times New Roman", "Times", "serif"; font-size: 20px; line-height: 130%; font-weight: 700; color: #FFFFFF; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; font-style: italic}
+.detail {  font-family: "Georgia", "Times New Roman", "Times", "serif"; font-size: 11px; font-style: italic; line-height: 130%; font-weight: 400; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; color: #FFFFFF}

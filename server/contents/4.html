@@ -1,0 +1,42 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<table width="100%" border="0" cellspacing="2" cellpadding="2">
+  <tr>
+	<td class="title">&sect; Apache &amp; PHP &amp; MySQL</td>
+  </tr>
+  <tr> 
+	<td class="padding1"> <h2>Apache</h2>
+	  <h3> httpd.conf　-　2.0.4x　の編集</h3>
+	  <h3>phpのモジュール追加</h3>
+	  <p class="atention">LoadModule php4_module c:/php/sapi/php4apache.dll</p>
+	  <h3>フォルダ内の表示をしない</h3>
+	  <p class="atention">&lt;Directory /&gt;<br>
+		Options FollowSymLinks<br>
+		AllowOverride None<br>
+		&lt;/Directory&gt;</p>
+	  <h3>phpmyadminへのアクセスをLANからだけに制限</h3>
+	  <p class="atention">&lt;Directory &quot;C:/htdocs/phpMyAdmin&quot;&gt;<br>
+		Order allow,deny<br>
+		Allow from 192.168.0.0/24 127.0.0.1<br>
+		&lt;/Directory&gt; </p>
+	  <h3> /以下の記入省略時 index.php を表示<br>
+		# DirectoryIndex: Name of the file or files to use as a pre-written HTMLの欄</h3>	
+	  <p class="atention">&lt;IfModule mod_dir.c&gt;<br>
+		DirectoryIndex index.html index.htm  index.shtml index.php index.php3<br>
+		&lt;/IfModule&gt;</p>
+	  <h3>phpの登録<br>
+		AddType application/x-tar .tgzの下</h3>
+	  <p class="atention">AddType application/x-httpd-php .php .php3<br>
+  		AddType application/x-httpd-php-source .phps</p>
+	  <hr noshade>
+	  <h2>php</h2>
+	  <p class="atention">php.ini をC:\ WINDOWS へ<br>
+		php4ts.dll を C:\WINDOWS\system32 へ</p>
+	  <hr noshade>
+	  <h2>MySQL</h2>
+	  <h3>サービスに登録</h3>
+	  <p class="atention">cd C:\mysql\bin<br>
+		mysqld-nt -install<br>
+		( mysqld-nt -remove)</p>
+		</td>
+  </tr>
+</table>
