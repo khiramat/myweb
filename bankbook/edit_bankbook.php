@@ -1,5 +1,5 @@
 <?php
-require_once '/var/www/html/inc/inc_init.php';
+require_once '/var/www/kh/inc/inc_init.php';
 $id = $_REQUEST["id"];
 $sql = "
 	SELECT 

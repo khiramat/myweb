@@ -52,7 +52,7 @@ $output .= "
 </rss>
 ";
 //echo $output;
-$rdf = fopen("/var/www/html/diary/diary.xml", "w");
+$rdf = fopen("/var/www/kh/diary/diary.xml", "w");
 fwrite($rdf, $output);
 fclose($rdf);
 ?>

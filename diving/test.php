@@ -1,6 +1,6 @@
 
 <?php
-$path = "/var/www/html/DivingLog/inc";
+$path = "/var/www/kh/DivingLog/inc";
 set_include_path(get_include_path() .PATH_SEPARATOR. $path);
 require_once("inc_init.php");
 ?>
@@ -91,21 +91,6 @@ EOF;
 <!-- フッタ開始 -->
 <div id="footer">
 	<div class="container"> 
-		<!--
-<ul class="nl">
-<li><a href="type2_design1_top.html">ホーム</a></li>
-<li><a href="type2_design1_low.html">サービス内容</a></li>
-<li><a href="#">制作実績</a></li>
-<li><a href="#">料金表</a></li>
-<li><a href="#">会社案内</a></li>
-</ul>
-<ul class="nl guide">
-<li><a href="#">FAQ</a></li>
-<li><a href="#">プライバシーポリシー</a></li>
-<li><a href="#">アクセス</a></li>
-<li><a href="#">サイトマップ</a></li>
-</ul>
--->
 		<address>
 		<strong>This site</strong> <br>
 		神奈川県茅ヶ崎市矢畑 531-10 TEL 090-6028-7942 <br>

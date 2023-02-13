@@ -1,6 +1,6 @@
 <?php
-require_once '/var/www/html/inc/inc_init.php';
-require_once '/var/www/html/bankbook/inc/account_select.php';
+require_once '/var/www/kh/inc/inc_init.php';
+require_once '/var/www/kh/bankbook/inc/account_select.php';
 ?>
 
 <div class="row">

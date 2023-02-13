@@ -1,5 +1,5 @@
 <?php
-$path = "/var/www/html/DivingLog/inc";
+$path = "/var/www/kh/DivingLog/inc";
 set_include_path(get_include_path() .PATH_SEPARATOR. $path);
 require_once("inc_init.php");
 

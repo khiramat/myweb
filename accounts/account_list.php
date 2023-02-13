@@ -1,5 +1,5 @@
 <?php
-require_once '/var/www/html/inc/inc_init.php';
+require_once '/var/www/kh/inc/inc_init.php';
 $keyword = $_POST["keyword"];
 if ($keyword) {
 	$where_key = "WHERE name LIKE '%" . $keyword . "%'";

@@ -9,8 +9,8 @@
 $path = '/var/www/pic/inc/';
 set_include_path(get_include_path() . PATH_SEPARATOR . $path);
 */
-require_once ('/var/www/html/inc/inc_define.php');
-require_once ('/var/www/html/inc/inc_db_connect.php');
+require_once ('/var/www/kh/inc/inc_define.php');
+require_once ('/var/www/kh/inc/inc_db_connect.php');
 
 // セッション開始
 session_start();
@@ -35,5 +35,5 @@ $_SESSION = array();
 		</ul>
 	</section>
 <?php
-require_once ("/var/www/html/inc/inc_footer.php");
+require_once ("/var/www/kh/inc/inc_footer.php");
 ?>

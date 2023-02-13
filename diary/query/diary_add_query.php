@@ -21,7 +21,7 @@ $result_insert = mysqli_query($link, $sql);
 
 if ($result_insert) {
 	@$lmodified = gmdate("D, d M Y H:i:s");
-	$fd = fopen("/var/www/html/diary/modified.html", "w");
+	$fd = fopen("/var/www/kh/diary/modified.html", "w");
 	fwrite($fd,
 			"<html>
 	<head>

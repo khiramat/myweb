@@ -1,6 +1,6 @@
 <div id="acount_edit_area"></div>
 <div id="acount_list">
-	<?php include("/var/www/html/accounts/account_list.php"); ?>
+	<?php include("/var/www/kh/accounts/account_list.php"); ?>
 </div>
 
 <script>

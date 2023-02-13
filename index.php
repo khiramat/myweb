@@ -1,16 +1,16 @@
 <?php
-require_once('/var/www/html/inc/inc_init.php');
+require_once('/var/www/kh/inc/inc_init.php');
 ?>
 <!DOCTYPE html>
 <html>
 <?php
-require_once('/var/www/html/inc/inc_head.php');
+require_once('/var/www/kh/inc/inc_head.php');
 ?>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
 	<?php
-	require_once('/var/www/html/inc/inc_top_nav.php');
-	require_once('/var/www/html/inc/inc_side_menu.php');
+	require_once('/var/www/kh/inc/inc_top_nav.php');
+	require_once('/var/www/kh/inc/inc_side_menu.php');
 	?>
 	
 	<!-- Content Wrapper. Contains page content -->
@@ -30,11 +30,11 @@ require_once('/var/www/html/inc/inc_head.php');
 	</div>
 	<!-- /.content-wrapper -->
 	<?php
-	require_once('/var/www/html/inc/inc_footer.php');
+	require_once('/var/www/kh/inc/inc_footer.php');
 	?>
 </div>
 <?php
-include('/var/www/html/inc/inc_script.php');
+include('/var/www/kh/inc/inc_script.php');
 ?>
 
 </body>

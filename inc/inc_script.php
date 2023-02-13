@@ -7,7 +7,6 @@
 <!-- date-range-picker -->
 <script src="/dist/moment/moment.min.js"></script>
 <script src="/dist/daterangepicker/daterangepicker.js"></script>
-
 <script src="/dist/js/ajax_open.js"></script>
 <!-- DataTables -->
 <script src="/dist/datatables/jquery.dataTables.min.js"></script>

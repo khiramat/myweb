@@ -1,6 +1,6 @@
 <?php
-require_once('/var/www/html/inc/inc_define.php');
-require_once('/var/www/html/inc/inc_db_connect.php');
+require_once('/var/www/kh/inc/inc_define.php');
+require_once('/var/www/kh/inc/inc_db_connect.php');
 @$htid = htmlspecialchars($_REQUEST["htid"]);
 @$htpass = htmlspecialchars($_REQUEST["htpass"]);
 //echo $htid. " / ". $htpass;

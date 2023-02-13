@@ -14,12 +14,12 @@
 	<div class="card-body">
 		<div class="row">
 			<div class="col-sm-6">
-				<?php include("/var/www/html/bankbook/entry.php"); ?>
-				<?php include("/var/www/html/bankbook/edit_search.php"); ?>
+				<?php include("/var/www/kh/bankbook/entry.php"); ?>
+				<?php include("/var/www/kh/bankbook/edit_search.php"); ?>
 			</div>
 			<div class="col-sm-6">
 				<div id="smbc">
-				<?php include("/var/www/html/bankbook/bankbook_list.php"); ?>
+				<?php include("/var/www/kh/bankbook/bankbook_list.php"); ?>
 				</div>
 			</div>
 		</div>

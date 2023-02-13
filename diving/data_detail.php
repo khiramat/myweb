@@ -1,8 +1,8 @@
 <?php
-require_once '/var/www/html/inc/inc_init.php';
+require_once '/var/www/kh/inc/inc_init.php';
 $DivingLogID = $_REQUEST["DivingLogID"];
-require_once '/var/www/html/diving/inc/inc_all_data.php';
-require_once '/var/www/html/diving/inc/inc_master_data.php';
+require_once '/var/www/kh/diving/inc/inc_all_data.php';
+require_once '/var/www/kh/diving/inc/inc_master_data.php';
 ?>
 <!-- コンテンツ開始 -->
 <div class="card">

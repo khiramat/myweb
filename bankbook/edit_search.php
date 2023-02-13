@@ -1,5 +1,5 @@
 <?php
-require_once '/var/www/html/inc/inc_init.php';
+require_once '/var/www/kh/inc/inc_init.php';
 ?>
 <div class="card card-primary">
 	<div class="card-header">
@@ -14,7 +14,7 @@ require_once '/var/www/html/inc/inc_init.php';
 	</div>
 	<div class="card-body">
 		<form action="javascript:void(0);" id="data_edit_form">
-			<?php require("/var/www/html/bankbook/inc/inc_period_select.php"); ?>
+			<?php require("/var/www/kh/bankbook/inc/inc_period_select.php"); ?>
 		</form>
 	</div>
 </div>

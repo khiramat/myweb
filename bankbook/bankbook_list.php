@@ -1,5 +1,5 @@
 <?php
-require_once '/var/www/html/inc/inc_init.php';
+require_once '/var/www/kh/inc/inc_init.php';
 //$jump_year = date("Y",strtotime("-1 year"));
 $jump_year = date("Y");
 ?>
@@ -34,7 +34,7 @@ $jump_year = date("Y");
 					<a href="bankbook/bankbook_list_table.php?start_date=<?= $jump_year ?>-12-01" class="form-control-sm">Dec</a>
 				</div>
 				<div id="balance_list_area">
-					<?php require_once '/var/www/html/bankbook/bankbook_list_table.php'; ?>
+					<?php require_once '/var/www/kh/bankbook/bankbook_list_table.php'; ?>
 				</div>
 			</div>
 		</div>

@@ -1,5 +1,5 @@
 <?php
-require_once '/var/www/html/inc/inc_init.php';
+require_once '/var/www/kh/inc/inc_init.php';
 
 $bankbook_id = htmlspecialchars($_POST["bankbook_id"]);
 $date = htmlspecialchars($_POST["date"]);

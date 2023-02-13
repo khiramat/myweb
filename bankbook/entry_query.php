@@ -1,5 +1,5 @@
 <?php
-require_once '/var/www/html/inc/inc_init.php';
+require_once '/var/www/kh/inc/inc_init.php';
 
 $LaunchDate_ary = explode("/", htmlspecialchars($_POST["reservation"]));
 $year_ary = explode(" ", $LaunchDate_ary[2]);

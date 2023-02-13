@@ -1,5 +1,5 @@
 <?php
-require_once '/var/www/html/inc/inc_init.php';
+require_once '/var/www/kh/inc/inc_init.php';
 
 $start_date = $_REQUEST["start_date"];
 if(!$start_date){
