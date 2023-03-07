@@ -7,4 +7,5 @@ define("C_DB_NAME_ACCOUNT", "hiramatsu");
 define("C_DB_NAME_FIN", "Finance");
 define("C_DB_NAME_DIVING", "Diving");
 define("C_DB_NAME_HEALTH", "health");
+define("C_DB_NAME_GMO", "gmo");
 define("C_EMAIL", "kiyoshi.hiramatsu@gmail.com");

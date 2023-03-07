@@ -30,12 +30,18 @@
 			  <ul class="nav nav-treeview">
 				  <div style="margin-left: 20px">
 					  <div class="menu_nav_ajax">
-						  <li class="nav-item">
-							  <a href="/bankbook/index.php" class="nav-link">
-								  <i class="far fa-circle nav-icon"></i>
-								  <p>Budget</p>
-							  </a>
-						  </li>
+                          <li class="nav-item">
+                              <a href="/GMO/index.php" class="nav-link">
+                                  <i class="far fa-circle nav-icon"></i>
+                                  <p>GMO</p>
+                              </a>
+                          </li>
+                          <li class="nav-item">
+                              <a href="/SMBC/index.php" class="nav-link">
+                                  <i class="far fa-circle nav-icon"></i>
+                                  <p>SMBC</p>
+                              </a>
+                          </li>
 						  <li class="nav-item">
 							  <a href="/accounts/index.php" class="nav-link">
 								  <i class="far fa-circle nav-icon"></i>
